@@ -1,6 +1,8 @@
 'use strict';
 
+
 const Hapi   = require('@hapi/hapi');
+
 
 const Server = new Hapi.Server({
     host: 'localhost',
